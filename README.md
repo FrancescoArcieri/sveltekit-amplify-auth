@@ -5,29 +5,29 @@ npm run dev -- --open
 
 ## Install AWS Amplify 
 npm install aws-amplify
+npm install -g @aws-amplify/cli   
+  or  npm install @aws-amplify/cli 
+  or  curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
 
-npm install -g @aws-amplify/cli 
-or  npm install @aws-amplify/cli 
-or  curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
 
-## metodo 0. 
-create manually in src folder: aws-exports.ts
-
-## Metodo 1. CLI 
+## Method 1 (CLI):  
 amplify configure
 amplify init
 amplify add auth
 amplify push
 amplify console
 
-## Metodo 2. da AWS console 
-- Select Amplify 
-- create app 
-- Launch studio
-- Add authentication 
-- deploy 
-amplify pull --appId dupey3onmcdne --envName staging
+## Method 2 (AWS console):  
+1. Select Amplify 
+2. create app 
+3. Launch studio
+4.  Add authentication 
+5. deploy 
+amplify pull --appId XXXXXXXXXXX --envName staging
 amplify push
+
+## Method 3 (Manual): 
+create manually in src folder: aws-exports.ts
 
 ## add amplify configuration
 create file: src/routes/+layout.ts
