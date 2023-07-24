@@ -7,16 +7,23 @@ npm run dev -- --open
 
 ## Install AWS Amplify 
 npm install aws-amplify
+
 npm install -g @aws-amplify/cli   
+
   or  npm install @aws-amplify/cli 
+
   or  curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
 
 
 ## Method 1 (CLI):  
 amplify configure
+
 amplify init
+
 amplify add auth
+
 amplify push
+
 amplify console
 
 ## Method 2 (AWS console):  
