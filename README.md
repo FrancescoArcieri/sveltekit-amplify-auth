@@ -1,4 +1,4 @@
-## Creating a svelte project (in the folder of the project)
+## Create a svelte project
 npm create svelte@latest (select: demo app | TypeScript | ESLint+Prettier)
 
 npm install
