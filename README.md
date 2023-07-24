@@ -1,6 +1,8 @@
 ## Creating a svelte project (in the folder of the project)
 npm create svelte@latest (select: demo app | TypeScript | ESLint+Prettier)
+
 npm install
+
 npm run dev -- --open
 
 ## Install AWS Amplify 
